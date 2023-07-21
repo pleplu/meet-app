@@ -1,0 +1,31 @@
+service: auth-server
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: us-east-2
+  timeout: 30
+  environment:
+    CLIENT_ID: 923163094967-1boboe93ql2gmq9gbfgm195httd717tv.apps.googleusercontent.com
+    CLIENT_SECRET: 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
+    CALENDAR_ID: fullstackwebdev@careerfoundry.com
+
+functions:
+  getAuthURL:
+    handler: handler.getAuthURL
+    events:
+      - http:
+          path: api/get-auth-url
+          method: get
+  getAccessToken:
+    handler: handler.getAccessToken
+    events:
+      - http:
+          path: api/token/{code}
+          method: get
+  getCalendarEvents:
+    handler: handler.getCalendarEvents
+    events:
+      - http:
+          path: api/get-events/{access_token}
+          method: get
