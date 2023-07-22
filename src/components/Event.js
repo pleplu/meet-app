@@ -7,13 +7,12 @@ const Event = ({ event }) => {
   }
 
   return (
-    <li className='event-item-list'>
+    <li>
       <div className="event-item">
-        <div className="id">id</div>
-        <div className="created">created</div>
-        <div className="location">location</div>
-        <div className="name">name</div>
-        {showDetails && <div className="description">description</div>}
+      <div className="name">{event && event.summary}</div>
+        <div className="created">{event && (new Date(event.created)).toUTCString()}</div>
+        <div className="location">{event && event.location}</div>
+        {showDetails && <div className="description">{event && event.description}</div>}
         <button className="show-details" onClick={toggleDetails}>
           {showDetails ? "Hide Details" : "Show Details"}
         </button>
