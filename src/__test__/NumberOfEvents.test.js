@@ -1,4 +1,4 @@
-import NumberOfEvents from "../components/NumberOfEvents";
+import NumberOfEvents from "../NumberOfEvents";
 import { render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 

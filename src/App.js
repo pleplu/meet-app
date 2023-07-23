@@ -1,6 +1,6 @@
-import CitySearch from './components/CitySearch';
-import EventList from './components/EventList';
-import NumberOfEvents from './components/NumberOfEvents';
+import CitySearch from './CitySearch';
+import EventList from './EventList';
+import NumberOfEvents from './NumberOfEvents';
 import { useEffect, useState } from 'react';
 import { extractLocations, getEvents } from './api';
 
@@ -28,8 +28,8 @@ const App = () => {
   return (
     <div className="App">
       <CitySearch allLocations={allLocations} setCurrentCity={setCurrentCity} />
-      <NumberOfEvents />
-      <EventList events={events}/>
+      <NumberOfEvents setCurrentNOE={setCurrentNOE} />
+      <EventList events={events} />
     </div>
   );
 }

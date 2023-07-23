@@ -1,11 +1,11 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
-const NumberOfEvents  = () => {
-    const [query, setQuery] = useState("32");
+const NumberOfEvents  = ({ setCurrentNOE }) => {
+    const [number, setNumber] = useState("32");
 
     const handleInputChanged = (event) => {
         const value = event.target.value;
-        setQuery(value)
+        setNumber(value)
     }
 
     return (
@@ -13,7 +13,7 @@ const NumberOfEvents  = () => {
             <input 
                 type='text'
                 className="events-options"
-                value={query}
+                value={number}
                 onChange={handleInputChanged}
             /> 
         </div>
