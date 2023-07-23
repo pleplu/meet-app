@@ -20,7 +20,8 @@ describe('<NumberOfEvents /> component', () => {
 
     test('renders text input value after user input', async () => {
         const user = userEvent.setup();
-        NumberOfEventsComponent.rerender(<NumberOfEvents />);
+        NumberOfEventsComponent.rerender(<NumberOfEvents
+          setCurrentNOE={() => { }} />);
 
         const optionsTextbox = NumberOfEventsComponent.queryByRole('textbox');
         expect(optionsTextbox).toHaveValue('32');

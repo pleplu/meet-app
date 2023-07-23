@@ -25,8 +25,6 @@ const App = () => {
     fetchData();
   }, [currentCity, currentNOE]);
 
-  
-
   return (
     <div className="App">
       <CitySearch allLocations={allLocations} setCurrentCity={setCurrentCity} />
