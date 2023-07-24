@@ -7,8 +7,8 @@ const Event = ({ event }) => {
   }
 
   return (
-    <li>
-      <div className="event-item">
+    <li className="event-item">
+      <div>
       <div className="name">{event && event.summary}</div>
         <div className="created">{event && (new Date(event.created)).toUTCString()}</div>
         <div className="location">{event && event.location}</div>

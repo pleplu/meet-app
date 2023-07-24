@@ -14,6 +14,7 @@ const NumberOfEvents  = ({ setCurrentNOE }) => {
             <input 
                 type='text'
                 className="events-options"
+                placeholder="Select list length"
                 value={number}
                 onChange={handleInputChanged}
             /> 
