@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/pleplu/meet-app.git/static/css/main.a20475cc.css",
-    "main.js": "/pleplu/meet-app.git/static/js/main.b26593aa.js",
+    "main.js": "/pleplu/meet-app.git/static/js/main.7aeff7fd.js",
     "static/js/787.78696b9d.chunk.js": "/pleplu/meet-app.git/static/js/787.78696b9d.chunk.js",
     "service-worker.js": "/pleplu/meet-app.git/service-worker.js",
     "index.html": "/pleplu/meet-app.git/index.html",
     "main.a20475cc.css.map": "/pleplu/meet-app.git/static/css/main.a20475cc.css.map",
-    "main.b26593aa.js.map": "/pleplu/meet-app.git/static/js/main.b26593aa.js.map",
+    "main.7aeff7fd.js.map": "/pleplu/meet-app.git/static/js/main.7aeff7fd.js.map",
     "787.78696b9d.chunk.js.map": "/pleplu/meet-app.git/static/js/787.78696b9d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a20475cc.css",
-    "static/js/main.b26593aa.js"
+    "static/js/main.7aeff7fd.js"
   ]
 }
