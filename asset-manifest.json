@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/pleplu/meet-app.git/static/css/main.1696aa33.css",
-    "main.js": "/pleplu/meet-app.git/static/js/main.e10048f8.js",
-    "static/js/787.78696b9d.chunk.js": "/pleplu/meet-app.git/static/js/787.78696b9d.chunk.js",
-    "service-worker.js": "/pleplu/meet-app.git/service-worker.js",
-    "index.html": "/pleplu/meet-app.git/index.html",
-    "main.1696aa33.css.map": "/pleplu/meet-app.git/static/css/main.1696aa33.css.map",
-    "main.e10048f8.js.map": "/pleplu/meet-app.git/static/js/main.e10048f8.js.map",
-    "787.78696b9d.chunk.js.map": "/pleplu/meet-app.git/static/js/787.78696b9d.chunk.js.map"
+    "main.css": "/meet-app/static/css/main.1696aa33.css",
+    "main.js": "/meet-app/static/js/main.2a4eead5.js",
+    "static/js/787.78696b9d.chunk.js": "/meet-app/static/js/787.78696b9d.chunk.js",
+    "service-worker.js": "/meet-app/service-worker.js",
+    "index.html": "/meet-app/index.html",
+    "main.1696aa33.css.map": "/meet-app/static/css/main.1696aa33.css.map",
+    "main.2a4eead5.js.map": "/meet-app/static/js/main.2a4eead5.js.map",
+    "787.78696b9d.chunk.js.map": "/meet-app/static/js/787.78696b9d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1696aa33.css",
-    "static/js/main.e10048f8.js"
+    "static/js/main.2a4eead5.js"
   ]
 }
