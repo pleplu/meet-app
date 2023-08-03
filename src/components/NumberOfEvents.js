@@ -9,8 +9,8 @@ const NumberOfEvents  = ({ setCurrentNOE, setErrorAlert }) => {
         setCurrentNOE(value)
 
         let errorText;
-        if (isNaN(number) || number < 1 || number > 32) {
-        errorText = "Please chose a number between 1 and 32"
+        if (isNaN(number) || number < 1) {
+        errorText = "Please chose a valid number"
         } else {
         errorText = ""
         }
