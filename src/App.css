@@ -83,7 +83,7 @@ input[type="number"] {
 }
 
 .event-item {
-  padding: 10px 10px 35px;
+  padding: 10px 10px;
   margin-bottom: 16px;
   text-align: center;
   border: 1px solid #ccc;
@@ -94,17 +94,14 @@ input[type="number"] {
 .description {
   right: 5px;
   bottom: 5px;
-  padding: 5px 8px;
+  padding: 5px;
   border-radius: 4px;
   outline: none;
 }
 
 .show-details {
-  position: absolute;
-  right: 5px;
-  bottom: 5px;
   margin: 5px;
-  padding: 5px 8px;
+  padding: 4px;
   border-radius: 4px;
   background-color: #ffffff;
   outline: none;
