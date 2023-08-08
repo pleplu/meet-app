@@ -16,7 +16,7 @@ const App = () => {
   const [currentCity, setCurrentCity] = useState("See all cities");
   const [infoAlert, setInfoAlert] = useState("");
   const [errorAlert, setErrorAlert] = useState('');
-  const [warningAlert, setWarningAlert] = useState('')
+  const [warningAlert, setWarningAlert] = useState('');
 
   useEffect(() => {
     const fetchData = async () => {
@@ -25,9 +25,9 @@ const App = () => {
         allEvents :
         allEvents.filter(event => event.location === currentCity)
       setEvents(filteredEvents.slice(0, currentNOE));
+      setAllLocations(extractLocations(allEvents));
       
       let warningText;
-      setAllLocations(extractLocations(allEvents));
       if (navigator.onLine) {
         warningText = ''
       } else {
